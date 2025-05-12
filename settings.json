@@ -1,0 +1,51 @@
+{
+   "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+   "C_Cpp.dimInactiveRegions": true,
+
+   "cmake.sourceDirectory": "${workspaceFolder}",
+   "cmake.configureOnOpen": false,
+
+   "files.associations": {
+      "*.eds": "ini",
+      "*.inc": "c",
+      "*.h": "c",
+      "*.c": "c",
+      "*.hpp": "cpp",
+      "*.cpp": "cpp"
+   },
+
+   // My style
+   "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#ec870e",
+      "activityBar.foreground": "#ffffff"
+   },
+
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "editor.formatOnSaveMode": "file",
+   "editor.detectIndentation": false,
+   "editor.insertSpaces": true,
+   "editor.tabSize": 4,
+   "prettier.tabWidth": 4,
+   "prettier.printWidth": 120,
+   "[cpp]": {
+      "editor.formatOnSave": false,
+      "editor.defaultFormatter": "ms-vscode.cpptools"
+   },
+   "[c]": {
+      "editor.formatOnSave": false,
+      "editor.defaultFormatter": "ms-vscode.cpptools"
+   },
+   "[h]": {
+      "editor.formatOnSave": false
+   },
+   "[jsonc]": {
+      "editor.formatOnSave": true
+   },
+   "[javascript]": {
+      "editor.formatOnSave": true
+   },
+   "[markdown]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   }   
+}

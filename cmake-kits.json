@@ -1,0 +1,123 @@
+[
+   {
+      "name": "GNU ARM Toolchain GCC 7.3.1",
+      "toolchainFile": "${workspaceFolder}/cmake/module/toolchain-gcc-7.3.1.cmake",
+      "preferredGenerator": {
+         "name": "Unix Makefiles"
+      }
+   },
+   {
+      "name": "GNU ARM Toolchain GCC 9.2.1",
+      "toolchainFile": "${workspaceFolder}/cmake/module/toolchain-gcc-9.2.1.cmake",
+      "preferredGenerator": {
+         "name": "Unix Makefiles"
+      }
+   },
+   {
+      "name": "GNU ARM Toolchain GCC 10.2.1",
+      "toolchainFile": "${workspaceFolder}/cmake/module/toolchain-gcc-10.2.1.cmake",
+      "preferredGenerator": {
+         "name": "Unix Makefiles"
+      }
+   },
+   {
+      "name": "GNU ARM Toolchain GCC 12.3.1",
+      "toolchainFile": "../cmake/module/toolchain-gcc-12.3.1.cmake",
+      "preferredGenerator": {
+         "name": "Unix Makefiles"
+      }
+   },
+   {
+      "name": "GNU ARM Toolchain GCC 13.2.1",
+      "toolchainFile": "../cmake/module/toolchain-gcc-13.2.1.cmake",
+      "preferredGenerator": {
+         "name": "Unix Makefiles"
+      }
+   },
+   {
+      "name": "NXP GNU ARM Toolchain GCC 9.3.1",
+      "toolchainFile": "${workspaceFolder}/cmake/module/toolchain-nxp-gcc-9.3.1.cmake",
+      "preferredGenerator": {
+         "name": "Unix Makefiles"
+      },
+      "environmentVariables": {
+         "__GNUC__": "1"
+      }
+   },
+   {
+      "name": "NXP GNU ARM Toolchain GCC 10.3.1",
+      "toolchainFile": "${workspaceFolder}/cmake/module/toolchain-nxp-gcc-10.3.1.cmake",
+      "preferredGenerator": {
+         "name": "Unix Makefiles"
+      },
+      "environmentVariables": {
+         "__GNUC__": "1"
+      }
+   },
+   {
+      "name": "Visual Studio Build Tools 2017 Release - amd64",
+      "visualStudio": "d4c966c7",
+      "visualStudioArchitecture": "x64",
+      "isTrusted": true,
+      "preferredGenerator": {
+         "name": "Visual Studio 15 2017",
+         "platform": "x64",
+         "toolset": "host=x64"
+      }
+   },
+   {
+      "name": "Visual Studio Build Tools 2019 Release - amd64",
+      "visualStudio": "04f4a0a7",
+      "visualStudioArchitecture": "x64",
+      "isTrusted": true,
+      "preferredGenerator": {
+         "name": "Visual Studio 16 2019",
+         "platform": "x64",
+         "toolset": "host=x64"
+      }
+   },
+   {
+      "name": "Visual Studio Community 2022 Release - amd64",
+      "visualStudio": "c1015150",
+      "visualStudioArchitecture": "x64",
+      "isTrusted": true,
+      "preferredGenerator": {
+         "name": "Visual Studio 17 2022",
+         "platform": "x64",
+         "toolset": "host=x64"
+      }
+   },
+   {
+      "name": "VCPKG + Visual Studio Build Tools 2017 Release - amd64",
+      "visualStudio": "d4c966c7",
+      "toolchainFile": "${workspaceFolder}/../vcpkg/scripts/buildsystems/vcpkg.cmake",
+      "visualStudioArchitecture": "x64",
+      "preferredGenerator": {
+         "name": "Visual Studio 15 2017",
+         "platform": "x64",
+         "toolset": "host=x64"
+      }
+   },
+   {
+      "name": "VCPKG + Visual Studio Build Tools 2019 Release - amd64",
+      "visualStudio": "04f4a0a7",
+      "visualStudioArchitecture": "x64",
+      "toolchainFile": "${workspaceFolder}/../vcpkg/scripts/buildsystems/vcpkg.cmake",
+      "preferredGenerator": {
+         "name": "Visual Studio 16 2019",
+         "platform": "x64",
+         "toolset": "host=x64"
+      }
+   },
+   {
+      "name": "VCPKG + Visual Studio Build Tools 2022 Release - amd64",
+      "visualStudio": "c1015150",
+      "visualStudioArchitecture": "x64",
+      "toolchainFile": "${workspaceFolder}/../vcpkg/scripts/buildsystems/vcpkg.cmake",
+      "preferredGenerator": {
+         "name": "Visual Studio 17 2022",
+         "platform": "x64",
+         "toolset": "host=x64"
+      }
+   }
+]

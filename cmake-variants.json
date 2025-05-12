@@ -1,0 +1,25 @@
+{
+   "buildType": {
+      "default": "debug",
+      "choices": {
+         "debug": {
+            "short": "Debug used also for Compile Test",
+            "long": "Emit debug information without performing optimizations",
+            "buildType": "Debug"
+         },
+         "release": {
+            "short": "Release used also for Compile Test",
+            "long": "Optimize for small binary size",
+            "buildType": "Release"
+         },
+          "MY APP tests": {
+            "short": "MY APP tests",
+            "long": "Compilation of FFF based tests for MY APP modules",
+            "buildType": "Debug",
+            "settings": {
+               "BUILD_TARGET": "/test/fff_my_tests/test-my-app"
+            }
+         }
+      }
+   }
+}
